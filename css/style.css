@@ -1,0 +1,227 @@
+
+@font-face {
+  font-family: OldLondon;
+  src: url('font/OldLondon.ttf');
+}
+
+h1 {
+	font-family: OldLondon; 
+	display: flex;
+    justify-content: center;
+    font-size: 56px;
+    margin: 0 0 0px 66px;
+}
+
+#character {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: 1% 0 0 51%
+}
+
+#background {
+	position:absolute;
+    background-image: url("../img/background.png");	
+	background-repeat: no-repeat;
+	width: 602px;
+	height: 916px;
+    margin: 5px 0 0 0;
+}
+
+#container {
+  display: flex;
+  justify-content: center;	
+}
+
+.buttons {
+    position:absolute;	
+	border-radius: 50%;
+	background-color: #4CAF50;
+    color: white;
+	text-decoration: none;
+    display: inline-block;
+    width: 40px;
+	height: 40px;
+	font-size: 34px;
+	padding: 0px 0 20px 0;
+	border: 0px;
+}
+
+/* Sectie voor de Karakter-Hoofd */
+
+#helmet{
+	background-repeat: no-repeat;	    
+    position:absolute;
+	width:117px;
+    height:163px;
+	margin:87px 0 0 0;
+}
+
+.helmet {
+	background-image: url(../img/helmet1.png);
+}
+
+.helmet1{
+    background-image: url(../img/helmet2.png);
+}
+
+.helmet2{    
+    background-image: url(../img/helmet3.png);
+}
+
+.helmet3{
+    background-image: url(../img/helmet4.png);
+}
+
+#button-nexthelmet{
+    left: 70px;
+    top: 130px;
+}
+
+#button-prevhelmet{
+    right: 70px;
+    top: 130px;
+}
+
+/* Sectie voor de Karakter-Armor */
+
+#armor {
+ 	background-repeat: no-repeat;   
+    position:absolute;
+    width: 370px;
+    height: 670px;
+	margin:195px 0 0 0;
+   
+}
+.armor {
+    background-image: url(../img/armor1.png);
+	
+}
+.armor1{
+    background-image: url(../img/armor2.png);
+
+}
+
+.armor2{
+    background-image: url(../img/armor3.png);
+
+}
+
+.armor3{  
+    background-image: url(../img/armor4.png);
+}
+
+#button-nextarmor{
+    left: 140px;
+    top: 250px;
+}
+
+#button-prevarmor{
+    right: 140px;
+    top: 250px;
+}
+
+
+/* Secties voor de Karakter-Schoen */
+
+#boots{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 224px;
+    height: 200px;
+    margin: 680px 0 0px 0px;
+  
+}
+
+.boots {
+    background-image: url(../img/boots1.png);	
+}
+
+.boots1{
+    background-image: url(../img/boots2.png); 
+}
+
+.boots2{
+    background-image: url(../img/boots3.png);   
+}
+
+.boots3{
+    background-image: url(../img/boots4.png);
+}
+
+#button-nextboots{
+    left: 105px;
+    top: 750px;
+}
+
+#button-prevboots{
+	right: 105px;
+    top: 750px;
+}
+
+/* Secties voor de Karakter-handen*/
+#hands{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 380px;
+    height: 210px;
+    margin: 376px 0 0px 0px;
+  
+}
+
+.hands {
+    background-image: url(../img/hands1.png);	
+}
+
+.hands1{
+    background-image: url(../img/hands2.png); 
+}
+
+.hands2{
+    background-image: url(../img/hands3.png);   
+}
+
+.hands3{
+    background-image: url(../img/hands4.png);
+}
+
+
+#button-nexthands{
+    left: 200px;
+    top: 490px;
+}
+
+#button-prevhands{
+    right: 200px;
+    top: 490px;
+}
+
+footer {
+	display: flex;
+    justify-content: center;
+	text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#myid{
+    font-size: 41px;
+    justify-content: center;
+    display: flex;
+    margin: -20px 0px 0px 62px;
+}
+
+fieldset {
+	position: absolute;
+}
+
+table {
+		text-align: center;
+}

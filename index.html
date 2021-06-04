@@ -1,0 +1,94 @@
+<html>
+
+   <head> 
+       <link rel="stylesheet" type="text/css" href="css/style.css">      
+   </head>
+   <title>DnD Creator</title>
+
+ <body>  
+ <h1>Create Your Own Character</h1>
+    <form>
+    <input type="text" id="nameCharacter" placeholder="Character's Name">
+    <input type="button" id="buttonName" value="confirm">
+   </form>
+   <section id="character">
+	<img id="background"> </img>
+	
+    <section id="container"> 
+     <input type="button" value="&#8250;" class="buttons" id="button-nexthelmet">
+	  <img id="armor" class="armor"> </img>
+	 <input type="button" value="&#8249;" class="buttons" id="button-prevhelmet">
+	</section>
+	
+    <section id="container">
+	 <input type="button" value="&#8250;" class="buttons" id="button-nextarmor">
+	  <img id="boots" class="boots"> </img>
+     <input type="button" value="&#8249;" class="buttons" id="button-prevarmor"> 	
+	</section> 
+	
+ 	<section id="container"> 
+     <input type="button" value="&#8250;" class="buttons" id="button-nextboots">	
+	  <img id="helmet" class="helmet"></img>
+	 <input type="button" value="&#8249;" class="buttons" id="button-prevboots">
+    </section>
+	
+  	<section id="container"> 
+	 <input type="button" value="&#8250;" class="buttons" id="button-nexthands">
+	  <img id="hands" class="hands"></img> 
+	 <input type="button" value="&#8249;" class="buttons" id="button-prevhands">
+    </section> 
+   </section>	
+   <p id="myId"></p>
+
+<section id="attributes">	 
+ <table>
+  <tr>
+    <th> </th>
+    <th>Skills</th> 
+    <th> </th>
+	<th>Points: <p id="points"></p> </th>
+  </tr>
+  <tr>
+    <td><button id="strenght">+</button></td>
+    <td>Strenght</td>
+    <td><button id="strenghtrem">-</button></td>
+	<td><p id="strenghtpoints"></td>
+  </tr>
+  <tr>
+    <td><button id="inteligence">+</button></td>
+    <td>Inteligence</td>
+    <td><button id="inteligencerem">-</button></td>
+	<td><p id="inteligencepoints"></td>
+  </tr>
+  <tr>
+    <td><button id="charisma">+</button></td>
+    <td>Charisma</td>
+    <td><button id="charismarem">-</button></td>
+	<td><p id="charismapoints"></td>
+  </tr>
+  <tr>
+    <td><button id="stamina">+</button></td>
+    <td>Stamina</td>
+    <td><button id="staminarem">-</button></td>
+	<td><p id="staminapoints"></td>
+  </tr>
+  <tr>
+    <td><button id="speed">+</button></td>
+    <td>Speed</td>
+    <td><button id="speedrem">-</button></td>
+	<td><p id="speedpoints"></td>
+  </tr>
+ </table>
+</section>
+  
+  <p id="points-strenght"></p>
+<script src='js/script.js'></script>
+<script src='js/attributes.js'></script>
+ 
+ <footer> 
+ <p> All digital assets belong to Bethesda Entertainment<br>Codes used/inspired of users <a href="https://github.com/goldiness/Dress-up-game">Goldiness from Github</a> & 
+ <a href="https://youtu.be/NmyMYg7nnoA">Diogão from Youtube</a>
+ </p> 
+ </footer>
+ </body>
+</html>
